@@ -18,8 +18,8 @@ Following step to setup coroutines</br>
         <li>implementation "com.squareup.retrofit2:retrofit:2.6.1"</li>
         <li>implementation "com.squareup.retrofit2:adapter-rxjava2:2.6.1"</li>
     </ul>
-    
+</ul>
+</br>
 Implementations:</br>
 Use CoroutineScope(Dispatchers.Main).launch = This is used for Update UI on main thread (Like AndroidSchedulers.Main)</br>
 Use CoroutineScope(Dispatchers.IO).launch  = Implements operation on IO thread (Like Schedulers.io)</br>
-</ul>
