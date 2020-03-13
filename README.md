@@ -2,7 +2,7 @@
  This repository implementation of Koin architecture, retrofit with coroutine.
  Following step to setup coroutines:
 
-  - Add coroutines dependencies
+  - Add coroutines dependencies<br/>
   ```implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.```
   - Add ViewModel dependencies for MVVM architecture
   ```implementation 'org.koin:koin-android-viewmodel:2.0.1'```
